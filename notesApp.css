@@ -1,0 +1,115 @@
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    width: 800px;
+    height: 600px;
+  }
+.contaier {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 23px;
+    background-color: #FFF8EA;
+}
+
+#input-box {
+    border: 1px solid black;
+    padding: 23px;
+}
+
+input,
+textarea {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    color: rgb(12, 1, 1);
+}
+
+button {
+    color: #594545;
+    padding: 8px 20px;
+    border: 1px solid #594545;
+    margin: 20px;
+    cursor: pointer;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+
+.text {
+    padding: 15px 0px;
+}
+
+.deletedDate {
+    padding: 0px 0px 15px 0px;
+}
+
+#notes {
+    padding: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+
+.note {
+    width: 400px;
+    color: #594545;
+    overflow-wrap: break-word;
+    margin: 12px;
+    padding: 12px;
+    border: 1px solid #594545;
+    background: transparent;
+}
+
+
+h1 {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: #F0F0F0;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px none #fff;
+    padding-bottom: 0.5rem;
+    background-color: #000;
+    padding: 10px;
+}
+
+#deletedNotes,
+#archivedNotes {
+    padding: 23px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* navigation bar */
+
+/* navigation bar */
+.navbar {
+    padding: 0 0 3.5rem;
+}
+
+.nav-link {
+    color: #000000;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.nav-item {
+    color: #000000;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.navbar-brand {
+    color: #000000;
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 50%;
+}
